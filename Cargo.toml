@@ -1,0 +1,9 @@
+[package]
+name = "flyshoot"
+version = "0.1.0"
+authors = ["Clément Laisné <claisne@clearedderivativessolutions.com>"]
+
+[dependencies]
+ws = { version = "*", git = "https://github.com/housleyjk/ws-rs" }
+byteorder = "1"
+time = "0.1.36"

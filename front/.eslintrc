@@ -1,0 +1,20 @@
+{
+    "extends": "airbnb",
+
+    "env": {
+        "browser": true,
+    },
+
+    "settings": {
+        "import/resolver": {
+            "webpack": {
+                "config": "./config/webpack.dev.js"
+            }
+        }
+    },
+
+    "rules": {
+        "new-cap": [0],
+        "eqeqeq": [2, "smart"]
+    }
+}
